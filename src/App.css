@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Times New Roman", Times, serif;
+}
+body {
+  
+}
+
+.app {
+  margin: 10px;
+}
+
+h1, h2, h3, h4, h5, h6, b, th{
+  font-family: "Arial Black", Gadget, sans-serif;
+}
+
+h1 {
+  display: block;
+  font-size: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  margin-left: 20px;
+  margin-right: 0;
+  font-weight: bold;
+  font-family: papyrus;
+}
+
+a {
+  background-color: red;
+  color: white;
+  padding: 1em 1.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+a:hover {
+  background-color: #555;
+}
+
+a:active {
+  background-color: black;
+}
+
+a:visited {
+  background-color: #ccc;
+}

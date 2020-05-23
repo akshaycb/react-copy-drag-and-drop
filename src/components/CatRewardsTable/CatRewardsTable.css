@@ -1,0 +1,45 @@
+table {
+    padding: 20px;
+    align-content: center;
+    cursor: context-menu;
+    box-shadow:  0 0 10px 5px rgba(0,0,0,0.6);
+    border-radius:25px;
+    width: 800px !important;
+    margin: 0px auto;
+    margin-top: 150px;
+}
+
+td, th {
+    border: 1px solid black;
+}
+
+.undoRedo {
+    width: 800px !important;
+    margin: 0 auto;
+}
+
+th {
+    height: 75px !important;
+    min-width: 200px !important;
+    max-width: 200px !important;
+}
+
+th, .tableheading {
+    background: #e6f7ff;
+}
+
+td {
+    height: 150px !important;
+    width: 300px !important;
+    padding: 20px;
+}
+
+.save {
+    float: right;
+    margin-right: 30px; 
+    background-color: lightgreen
+}
+
+.save:hover {
+    background-color: green
+}
